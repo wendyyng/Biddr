@@ -18,6 +18,7 @@ Biddr is a auctions app that allows users to create auctions and place bids.
 - HTML
 - CSS
 - Javascript
+- PostgreSQL
 
 ## Features
 
