@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#welcome-banner{
+  margin: 0%;
+  background-image: url('https://img.freepik.com/free-photo/wooden-gavel_93675-130731.jpg?w=900&t=st=1661303373~exp=1661303973~hmac=95b08c76ba867bb0cb387c55ca5c0e905e62e3410cd6d740376fe05c2b5ca45e');
+  width: 100vw;
+  height: 100vh; 
+  background-size:100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+ /* background-color: black; */
+}
+
+#auctions, #auction {
+  background-color: antiquewhite;
+}
+
+nav {
+  background-color: rgb(204, 203, 202) !important;
+  overflow: auto;
+}
