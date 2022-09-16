@@ -8,7 +8,7 @@
 - Installation
 
 ## Summary
-Biddr is an auctions app that allows users to create auctions and place bids.
+Biddr is an auction app that allows users to create auctions and place bids.
 
 ## Technologies Used:
 
@@ -25,9 +25,9 @@ Biddr is an auctions app that allows users to create auctions and place bids.
 - Sign in and sign up as a user
 - View auctions and place bids
 - Create new auctions
-- Current highest price of an auction
+- The current highest price of an auction
 - Status of whether the reserve price has been met
-- New bids has to be higher than the current highest bid
+- New bids have to be higher than the current highest bid
 
 ## Screenshots:
 
