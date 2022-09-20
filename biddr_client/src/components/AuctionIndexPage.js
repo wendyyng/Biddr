@@ -17,7 +17,6 @@ export default function AuctionIndexPage () {
     <>
     <div className="container-fluid p-0" id="auctions">
     <h1 className="text-center" >Auctions</h1>
-    
     </div>
     <div className="container p-0 ">
     <div className="container mt-3 mx-3 d-flex flex-wrap flex-row justify-content-center">
