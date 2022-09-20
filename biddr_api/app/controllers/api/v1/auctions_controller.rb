@@ -27,7 +27,7 @@ class Api::V1::AuctionsController < Api::ApplicationController
     private
 
     def auction_params
-        params.require(:auction).permit(:title, :description, :ends_at, :reserve_price)
+        params.require(:auction).permit(:title, :description, :ends_at, :reserve_price, :img_url, :created_at)
     end
 
 end

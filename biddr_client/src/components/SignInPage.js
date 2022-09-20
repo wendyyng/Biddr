@@ -33,8 +33,9 @@ function SignInPage(props){
     }
 
     return(
-        <main className="d-flex justify-content-center m-4 " >
+        <main className="d-flex justify-content-center m-4 p-5" >
              <div style={{width: "30em"}} className="my-auto col-sm-12 shadow p-3 mb-5 bg-white rounded my-auto col-sm-12">
+            <h1 className="text-center m-2">Sign In</h1>
             <form onSubmit={handleSubmit}>
                 {errors.length > 0 ? (
                     <div>
@@ -45,17 +46,17 @@ function SignInPage(props){
                     ""
                 )}
 
-                <div className="form-group">
+                <div className="form-group m-2">
                     <label htmlFor="email">Email*</label>
                     <input className="form-control" type="text" name="email" id="email" onChange={event => {
                         setEmail(event.currentTarget.value)}} />
                 </div>
-                <div className="form-group">
+                <div className="form-group m-2">
                     <label htmlFor="password">Password*</label>
                     <input className="form-control"type="password" name="password" id="password" onChange={event => {
                         setPassword(event.currentTarget.value)}} />
                 </div>
-                <input className="btn btn-secondary mt-3" type="submit" value="Sign In" />
+                <input className="btn btn-secondary m-2 mt-3" type="submit" value="Sign In" />
             </form>
             </div>
         </main>

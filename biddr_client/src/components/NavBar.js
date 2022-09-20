@@ -10,8 +10,9 @@ const NavBar = ({ currentUser, onSignOut }) => {
   return (
 
       <nav className="d-flex justify-content-between align-items-center p-0">
-      <div>
-        <img style={{width: "5em"}} src="https://images.pexels.com/photos/210600/pexels-photo-210600.jpeg?cs=srgb&dl=pexels-pixabay-210600.jpg&fm=jpg"></img>
+      <div className="d-flex flex-row">
+        {/* <img style={{width: "5em"}} src="https://images.pexels.com/photos/210600/pexels-photo-210600.jpeg?cs=srgb&dl=pexels-pixabay-210600.jpg&fm=jpg"></img> */}
+        <h2 className="logo-title text-uppercase font-weight-bold m-1">Biddr<img style={{width: "2em"}} src="https://svgsilh.com/svg/2632555.svg" /></h2>
       </div>
       <div>
           <NavLink className="m-2 text-decoration-none text-dark" to="/">Home</NavLink>
@@ -25,7 +26,7 @@ const NavBar = ({ currentUser, onSignOut }) => {
         ) : (
           <>
             <NavLink className="m-2 text-decoration-none text-dark" to="/sign_in">Sign In</NavLink>
-            <NavLink className="m-2 text-decoration-none text-dark" to="/sign_up">Sign Up</NavLink>
+            <NavLink className="m-2 mr-3 text-decoration-none text-dark" to="/sign_up">Sign Up</NavLink>
           </>
         )}
         </div>
