@@ -4,7 +4,7 @@ const BidDetails = (props) => {
   const {bid_price, created_at} = props
   return(
     <div>
-      <p>${bid_price} on {dateFormat(created_at, "mmmm dS, yyyy")}</p>
+      <h5><span className="badge bg-success text-light">${bid_price}</span> on {dateFormat(created_at, "mmmm dS, yyyy")}</h5>
     </div>
   )
 }

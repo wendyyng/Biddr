@@ -31,7 +31,18 @@ super_user = User.create(
   
 users = User.all
 
-10.times do
+AUCTION_IMG = [
+  "https://images.pexels.com/photos/1169922/pexels-photo-1169922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/285857/pexels-photo-285857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "https://images.pexels.com/photos/1497307/pexels-photo-1497307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/1458867/pexels-photo-1458867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/1232931/pexels-photo-1232931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/6243761/pexels-photo-6243761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/3014826/pexels-photo-3014826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/1480964/pexels-photo-1480964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+]
+
+8.times do |i|
     created_at = Faker::Date.backward(days: 7)
 
     p = Auction.create({
@@ -42,7 +53,8 @@ users = User.all
       created_at: created_at,
       updated_at: created_at,
       user: users.sample,
-      status: "published"
+      status: "published",
+      img_url: AUCTION_IMG[i]
     })
 
   if p.valid?

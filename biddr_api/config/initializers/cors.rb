@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
     allow do
-        origins 'http://127.0.0.1:5500', 'localhost:5500', 'localhost:9999', 'localhost:3434' #whitelisted domains or "vip" domains
+        origins 'http://127.0.0.1:5500', 'http://127.0.0.1:5501', 'localhost:5501', 'localhost:5500', 'localhost:9999', 'localhost:3434' #whitelisted domains or "vip" domains
         #these are the domains that you are allowing to send requests to your api server
 
         resource(
