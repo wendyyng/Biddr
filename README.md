@@ -1,4 +1,4 @@
-# Auctions and Bidding App - Biddr
+# Biddr
 
 ## Table of Contents
 - Summary
