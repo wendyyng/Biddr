@@ -12,13 +12,14 @@ Biddr is an auction app that allows users to create auctions and place bids.
 
 ## Technologies Used:
 
-- Ruby on Rails (back-end)
-- React.js (front-end)
+- Ruby on Rails for back-end API
+- React.js for front-end
 - Bootstrap
 - HTML
 - CSS
 - Javascript
 - PostgreSQL
+- Postman for testing API
 
 ## Features
 
