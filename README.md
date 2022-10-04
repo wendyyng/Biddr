@@ -1,5 +1,5 @@
 # Biddr
-![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)
+![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)
 ## Table of Contents
 - Summary
 - Technologies Used
