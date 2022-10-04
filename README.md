@@ -10,7 +10,7 @@
 ## Summary
 Biddr is an auction app that allows users to create auctions and place bids.
 
-## Link
+## Demo Link
 - YouTube: https://youtu.be/96SQJTRQIVI
 
 ## Technologies Used:
