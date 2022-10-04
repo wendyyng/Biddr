@@ -10,6 +10,9 @@
 ## Summary
 Biddr is an auction app that allows users to create auctions and place bids.
 
+## Link
+- YouTube: https://youtu.be/96SQJTRQIVI
+
 ## Technologies Used:
 
 - Ruby on Rails for back-end API
