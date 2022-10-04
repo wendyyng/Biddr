@@ -1,5 +1,5 @@
 # Biddr
-
+![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)
 ## Table of Contents
 - Summary
 - Technologies Used
@@ -31,9 +31,6 @@ Biddr is an auction app that allows users to create auctions and place bids.
 - New bids have to be higher than the current highest bid
 
 ## Screenshots:
-
-- Home Page:
-![image](https://user-images.githubusercontent.com/71687298/191143883-075b08b0-6837-4e37-9ad3-aee3e1cd08ce.png)
 - Auctions Index Page:
 ![image](https://user-images.githubusercontent.com/71687298/191143905-6933815b-5bde-47e6-aa7c-e8e2803ad963.png)
 - Auctions Show Page:
